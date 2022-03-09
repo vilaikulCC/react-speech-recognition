@@ -44,6 +44,7 @@ function App() {
       callback: () => {
         document.body.classList.add("dark-theme");
         document.body.classList.remove("light-theme");
+        handleStop();
       },
     },
     {
@@ -51,6 +52,7 @@ function App() {
       callback: () => {
         document.body.classList.add("light-theme");
         document.body.classList.remove("dark-theme");
+        handleStop();
       },
     },
   ];
